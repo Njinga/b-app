@@ -1,5 +1,7 @@
 <template>
-  <div class="about">
-    <h1>Internet connection error</h1>
-  </div>
+    <div class="about">
+        <br />
+        <h1>Internet connection error</h1>
+        <br />
+    </div>
 </template>

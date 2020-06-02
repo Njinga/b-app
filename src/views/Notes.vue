@@ -1,5 +1,6 @@
 <template>
     <div id="notes">
+        <br />
         <p><strong>INTRODUCTION</strong></p>
         <p>SOLVING QUADRATIC EQUATIONS</p>
         <p class="text-danger">Completing the square</p>

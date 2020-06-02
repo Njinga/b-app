@@ -1,7 +1,8 @@
 <template>                                                                                                                                                                                                          
     <div id="home">
-
+        <br />
         <h1>MATHEMATICS</h1>
+        <br />
 
     </div>
 
