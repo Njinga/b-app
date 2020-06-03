@@ -1,6 +1,6 @@
 <template>
-    <b-navbar toggleable type="dark" variant="dark">
-        <b-navbar-brand href="#">MATHEMATICS</b-navbar-brand>
+    <b-navbar toggleable type="light" variant="success">
+        <b-navbar-brand to="/">Home</b-navbar-brand>
 
         <b-navbar-toggle target="navbar-toggle-collapse">
             <template v-slot:default="{ expanded }">
@@ -11,9 +11,10 @@
 
         <b-collapse id="navbar-toggle-collapse" is-nav>
             <b-navbar-nav class="ml-auto">
-                <b-nav-item href="/home">Home</b-nav-item>
-                <b-nav-item href="#">About</b-nav-item>
-                <b-nav-item href="#" disabled>Disabled</b-nav-item>
+                <b-nav-item to="/notes">Notes</b-nav-item>
+                <b-nav-item to="/examples">Examples</b-nav-item>
+                <b-nav-item to="/exercises">Exercises</b-nav-item>
+                <b-nav-item to="/about">About Us</b-nav-item>
             </b-navbar-nav>
         </b-collapse>
     </b-navbar>
