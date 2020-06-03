@@ -1,9 +1,11 @@
 <template>
-    <div id="notes">
+    <div id="notes" class="shadow-lg p-3 mb-5 rounded">
         <br />
-        <p><strong>INTRODUCTION</strong></p>
-        <p>SOLVING QUADRATIC EQUATIONS</p>
-        <p class="text-danger">Completing the square</p>
+        <h1><strong>INTRODUCTION</strong></h1>
+        <h2>SOLVING QUADRATIC EQUATIONS</h2>
+        <h3 class="text-danger">Completing the square</h3>
+
+        <div >
         <p>We can complete the square to solve a Quadratic Equation (find where it is equal to zero).</p>
 
         <p>But a general Quadratic Equation can have a coefficient of <strong>a</strong> in front of x<sup>2</sup>:<p>
@@ -14,7 +16,7 @@
 
         <p><strong>x<sup>2</sup> + (b/a)x + c/a = 0</strong><p>
 
-        <p class="text-primary">Steps</p>
+        <h4 class="text-primary">Steps</h4>
 
         <p>Now we can solve a quadratic equaton in 5 steps:</p>
 
@@ -33,6 +35,7 @@
             <strong>. Step 5</strong> Subtract the number that remains on the left side of the
             equation to find <strong>x</strong>.
         </p>
+    </div>
         <br />
         <br />
         

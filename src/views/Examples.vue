@@ -1,5 +1,5 @@
 <template>
-    <div id="examples">
+    <div id="examples" class="shadow-lg p-3 mb-5 rounded">
         <br />
         <h1>Generating Examples</h1>
         <p>

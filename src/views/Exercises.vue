@@ -1,5 +1,5 @@
 <template>
-    <div id="exercises">
+    <div id="exercises" class="p-3 mb-5 rounded">
 
         <br />
         <h1>Generating Exercises</h1>

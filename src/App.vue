@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" class="border border-success">
         <Navbar></Navbar>
         
         <!--<b-form-group label="Aspect ratio" label-for="ratio" label-cols-md="auto" class="mb-3">
@@ -23,7 +23,7 @@
 
 </template>
 
-<style>
+<!--<style>
     #app {
         font-family: Avenir, Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -51,40 +51,6 @@
 
             #nav a.router-link-exact-active {
                 color: #42b983;
-                border-bottom: 3px solid red;
-            }
-</style>
-<!--<style>
-    #app {
-        font-family: Avenir, Helvetica, Arial, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        text-align: justify;
-        color: #2c3e50;
-    }
-
-    .topnav {
-        background-color: #333;
-        overflow: hidden;
-    }
-
-        /* Style the links inside the navigation bar */
-        .topnav a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-            border-bottom: 3px solid transparent;
-        }
-
-            .topnav a:hover {
-                border-bottom: 3px solid red;
-            }
-
-            .topnav a.active {
                 border-bottom: 3px solid red;
             }
 </style>-->
