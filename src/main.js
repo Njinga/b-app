@@ -13,6 +13,9 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
 Vue.component('Navbar', require('./components/Navbar.vue').default);
+Vue.component('Footer', require('./components/Footer.vue').default);
+
+
 
 new Vue({
   router,
