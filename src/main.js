@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import VueMathjax from 'vue-mathjax'
 import App from './App.vue'
 import router from './router'
 
@@ -11,6 +12,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
+Vue.use(VueMathjax)
 
 Vue.component('Navbar', require('./components/Navbar.vue').default);
 Vue.component('Footer', require('./components/Footer.vue').default);
